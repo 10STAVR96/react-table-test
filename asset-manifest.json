@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.082e1928.chunk.css",
+    "main.js": "./static/js/main.ad552e9b.chunk.js",
+    "main.js.map": "./static/js/main.ad552e9b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.2f116aa4.js",
+    "runtime-main.js.map": "./static/js/runtime-main.2f116aa4.js.map",
+    "static/js/2.e51219ac.chunk.js": "./static/js/2.e51219ac.chunk.js",
+    "static/js/2.e51219ac.chunk.js.map": "./static/js/2.e51219ac.chunk.js.map",
+    "static/js/3.66f925de.chunk.js": "./static/js/3.66f925de.chunk.js",
+    "static/js/3.66f925de.chunk.js.map": "./static/js/3.66f925de.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.082e1928.chunk.css.map": "./static/css/main.082e1928.chunk.css.map",
+    "static/js/2.e51219ac.chunk.js.LICENSE.txt": "./static/js/2.e51219ac.chunk.js.LICENSE.txt",
+    "static/media/PopupWithForm.css": "./static/media/back.fb50e62b.svg",
+    "static/media/index.css": "./static/media/inter-regular.a252fc44.woff",
+    "static/media/Preloader.css": "./static/media/not-found.39241ac1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f116aa4.js",
+    "static/js/2.e51219ac.chunk.js",
+    "static/css/main.082e1928.chunk.css",
+    "static/js/main.ad552e9b.chunk.js"
+  ]
+}
