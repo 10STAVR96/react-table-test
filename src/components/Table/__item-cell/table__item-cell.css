@@ -1,0 +1,18 @@
+.table__item-cell {
+  padding: 10px 15px;
+  overflow: auto;
+  white-space: nowrap;
+  color: #B6BCBF;
+  font-size: 15px;
+}
+
+.table__item-cell:hover {
+  background-color: dimgray;
+}
+
+@media screen and (max-width: 1023px) {
+  .table__item-cell{
+    font-size: 12px;
+    padding: 10px 8px;
+  }
+}

@@ -1,0 +1,23 @@
+.table__item-header {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.table__item-header:hover {
+  transition: opacity .3s linear;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  .table__item-header {
+    font-size: 12px;
+    padding: 10px 8px;
+  }
+}

@@ -1,0 +1,42 @@
+@import url(./__item/table__item.css);
+@import url(./__item-cell/table__item-cell.css);
+@import url(./__item-header/table__item-header.css);
+@import url(./__arrow/table__arrow.css);
+@import url(./__arrow/_rotate/_top/table__arrow_rotate_top.css);
+@import url(./__arrow/_rotate/_bottom/table__arrow_rotate_bottom.css);
+
+.table {
+  display: grid;
+  grid-template-columns:
+    minmax(40px, 100px)
+    minmax(80px, 200px)
+    minmax(80px, 200px)
+    minmax(50px, 300px)
+    minmax(50px, 200px);
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  list-style-type: none;
+  border-collapse: collapse;
+  border-left: 1px dashed white;
+  border-right: 1px dashed white;
+  border-bottom: 1px dashed white;
+  border-top: 1px dashed white;
+}
+
+thead, tbody, tr {
+  display: contents;
+}
+
+td {
+  border-top: 1px dashed white;
+  border-right: 1px dashed white;
+}
+
+th {
+  border-right: 1px dashed white;
+}
+
+td:last-child, th:last-child {
+  border-right: none;
+}

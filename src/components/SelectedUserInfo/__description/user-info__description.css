@@ -1,0 +1,14 @@
+.user-info__description {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 20px;
+  overflow: auto;
+  resize: none;
+  background: inherit;
+  border: none;
+  outline: none;
+  color: white;
+}

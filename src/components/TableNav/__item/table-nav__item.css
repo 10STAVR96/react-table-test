@@ -1,0 +1,16 @@
+.table-nav__item {
+  border-right: 1px solid white;
+  padding: 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.table-nav__item:last-child {
+  border-right: none;
+}
+
+.table-nav__item:hover {
+  transition: opacity .3s linear;
+  opacity: 0.8;
+  cursor: pointer;
+}

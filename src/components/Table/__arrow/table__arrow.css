@@ -1,0 +1,26 @@
+.table__arrow {
+  margin-left: 5px;
+  width: 15px;
+  height: 20px;
+  cursor: pointer;
+}
+.table__arrow polygon {
+  fill: #fff; 
+  transition: fill 0.5s ease-out;
+}
+.table__arrow:hover polygon {
+  fill: #BFE2FF;
+}
+
+@media screen and (max-width: 1023px) {
+  .table__arrow {
+    width: 10px;
+    height: 8px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .table__arrow {
+    display: none;
+  }
+}

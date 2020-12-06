@@ -1,0 +1,10 @@
+.filter__input {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: normal;
+  padding: 10px 10px;
+  background: #fff;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  width: calc(100% - 20px * 2);
+}

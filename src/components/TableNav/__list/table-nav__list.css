@@ -1,0 +1,6 @@
+.table-nav__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+}

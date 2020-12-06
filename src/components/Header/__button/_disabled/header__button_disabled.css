@@ -1,0 +1,8 @@
+.header__button_disabled {
+  color: #767676;
+}
+
+.header__button_disabled:hover {
+  opacity: 1;
+  cursor: default;
+}

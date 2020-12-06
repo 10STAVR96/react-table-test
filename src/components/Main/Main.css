@@ -1,0 +1,14 @@
+@import url(./__table-block/main__table-block.css);
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: calc(100% - 104px * 2);
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    max-width: calc(100% - 10px * 2);
+  }
+}

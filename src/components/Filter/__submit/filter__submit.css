@@ -1,0 +1,19 @@
+.filter__submit {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: normal;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+  color: black;
+  width: calc(100% - 10px * 2);
+}
+
+.filter__submit:hover {
+  transition: opacity .3s linear;
+  opacity: .8;
+  cursor: pointer;
+}

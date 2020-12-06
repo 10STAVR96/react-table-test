@@ -1,0 +1,10 @@
+@import url(./__header/filter__header.css);
+@import url(./__input/filter__input.css);
+@import url(./__submit/filter__submit.css);
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
